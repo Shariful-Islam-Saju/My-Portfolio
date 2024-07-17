@@ -44,7 +44,7 @@ const Banner = () => {
       <motion.p
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.8 }}
+        transition={{ duration: 0.5, delay: 0.7 }}
         className="md:max-w-[650px] text-darkText font-medium leading-7"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
@@ -64,7 +64,7 @@ const Banner = () => {
       <motion.a
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.8 }}
+        transition={{ duration: 0.5, delay: 0.7 }}
         href="#"
         className="w-52 h-14 text-sm border font-semibold border-designColor rounded-md text-designColor tracking-wide hover:bg-hoverColor duration-300 flex items-center justify-center"
       >
