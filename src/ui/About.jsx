@@ -1,6 +1,7 @@
 import { FaCode } from "react-icons/fa";
 import Container from "./Container";
 import TitlePage from "./TitlePage";
+import profile from '../assets/images/ProfileImg.jpg'
 
 const links = [
   {
@@ -38,7 +39,7 @@ const links = [
 ];
 const About = () => {
   return (
-    <Container id="about" className="py-10 lg:py-32 flex flex-col gap-8">
+    <Container id="about" className="py-10 lg:py-24 flex flex-col gap-8">
       <TitlePage title="About Me" />
       <div className="flex flex-col lg:flex-row gap-16">
         <div className="w-full lg:w-2/3 text-darkText font-medium flex flex-col gap-4 ">
@@ -95,15 +96,15 @@ const About = () => {
           <div className="absolute w-full h-96 -left-6 -top-6 rounded-lg">
             <div className="w-full h-full relative z-20 flex pl-6 lg:pl-0">
               <img
-                src=""
+                src={profile}
                 alt="My profile Img"
-                className="border rounded-lg lg:w-full h-full object-cover"
+                className=" rounded-lg lg:w-full h-full object-cover"
               />
             </div>
             <div className=" hidden lg:inline-block absolute w-full h-96 bg-designColor/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300" />
-          </div>        <div className="hidden lg:inline-flex w-full h-96 border-2 border-designColor rounded-md group-hover:-translate-x-2 group-hover:-translate-y-2 transition-transform duration-300" />
+          </div>{" "}
+          <div className="hidden lg:inline-flex w-full h-96 border-2 border-designColor rounded-md group-hover:-translate-x-2 group-hover:-translate-y-2 transition-transform duration-300" />
         </div>
-
       </div>
     </Container>
   );

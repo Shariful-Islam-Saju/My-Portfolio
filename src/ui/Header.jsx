@@ -56,6 +56,7 @@ const Header = () => {
                 className="font-medium hover:text-designColor cursor-pointer duration-300"
               >
                 <motion.li
+                  className="relative group inline-flex overflow-x-hidden "
                   initial={{ y: -10, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{
@@ -64,6 +65,7 @@ const Header = () => {
                   }}
                 >
                   <span className="uppercase tracking-wide">{item?.title}</span>
+                  <span className="w-full absolute h-[1px] bg-designColor left-0 bottom-0 -translate-x-[110%] transition-transform  group-hover:translate-x-0 duration-500"></span>
                 </motion.li>
               </Link>
             ))}{" "}
