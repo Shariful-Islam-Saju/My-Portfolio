@@ -2,6 +2,8 @@ import { useState } from "react";
 import Container from "./Container";
 import TitlePage from "./TitlePage";
 import JobInfo from "./jobInfo";
+import Work from "./work";
+import jobInfo from "./jobInfo";
 
 const Experience = () => {
   const [workInfo, setWorkInfo] = useState({
@@ -10,13 +12,19 @@ const Experience = () => {
     workApple: false,
     workAmazon: false,
   });
+  function setBoolean(item) {
+    const method1 = item.jobMethod;
+    if (workInfo[`${method1}`]) {
+      return true;
+    } else {
+      return false;
+    }
+  }
   // const [workGoogle, setWorkGoogle] = useState(false);
   // const [workApple, setWorkApple] = useState(false);
   // const [workAmazon, setWorkAmazon] = useState(false);
 
   function handleChange(setChange) {
-    console.log(setChange);
-    console.log(workInfo);
     setWorkInfo({
       workReactBD: false,
       workGoogle: false,
@@ -36,13 +44,7 @@ const Experience = () => {
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
         <ul className="md:w-32 flex flex-col">
           {JobInfo.map((item, i) => {
-            const method1 = item.jobMethod;
-            let method = false;
-            if (workInfo[`${method1}`]) {
-              method = true;
-            } else {
-              method = false;
-            }
+            let method = setBoolean(item);
             return (
               <li
                 key={i}
@@ -60,6 +62,11 @@ const Experience = () => {
             );
           })}
         </ul>
+        {jobInfo.map((item, i) => {
+          const method = setBoolean(item);
+
+          return method && <Work key={i} item={item} />;
+        })}
       </div>
     </Container>
   );

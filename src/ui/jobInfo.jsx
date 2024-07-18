@@ -5,47 +5,47 @@ const jobInfo = [
     jobMethod: "workReactBD",
     date: "Jan 2024",
     details1:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem nisi minus non asperiores ipsam, ipsum sequi dolorem corporis, tempore enim provident! Voluptas, at labore consequuntur animi vero ratione officia eaque.",
+      " consectetur adipisicing elit. Autem nisi minus non asperiores ipsam, ipsum sequi dolorem corporis, tempore enim provident!Lorem ipsum dolor sit, amet  Voluptas, at labore consequuntur animi vero ratione officia eaque.",
     details2:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem nisi minus non asperiores ipsam, ipsum sequi dolorem corporis, tempore enim provident! Voluptas, at labore consequuntur animi vero ratione officia eaque.",
+      " sit, amet consectetur adipisicing elit. Autem nisi minus non asperiores ipsam, ipsum sequi dolorem corporis, tempore enim provident! Voluptas, at labore consequuntur animi vero ratione Lorem ipsum dolor officia eaque.",
     details3:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem nisi minus non asperiores ipsam, ipsum sequi dolorem corporis, tempore enim provident! Voluptas, at labore consequuntur animi vero ratione officia eaque.",
+      "  adipisicing elit. Autem nisi minus non asperiores ipsam, ipsum sequi dolorem corporis, tempore enim provident! Voluptas, at labore consequuntur animi vero Lorem ipsum dolor sit, amet consecteturratione officia eaque.",
   },
   {
     jobTitle: "Engineer",
     jobTag: "Google",
     jobMethod: "workGoogle",
-    date: "Jan 2024",
+    date: "Feb 2024",
     details1:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem nisi minus non asperiores ipsam, ipsum sequi dolorem corporis, tempore enim provident! Voluptas, at labore consequuntur animi vero ratione officia eaque.",
+      "animi vero ratione  consectetur adipisicing elit. Autem nisi minus non asperiores ipsam, ipsum sequi dolorem corporis, tempore enim provident!Lorem ipsum dolor sit, amet  Voluptas, at labore consequuntur officia eaque.",
     details2:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem nisi minus non asperiores ipsam, ipsum sequi dolorem corporis, tempore enim provident! Voluptas, at labore consequuntur animi vero ratione officia eaque.",
+      " adipisicing elit. Autem nisi minus non asperiores ipsam, ipsum sequi dolorem corporis, tempore enim provident! Voluptas, sit, amet consectetur at labore consequuntur animi vero ratione Lorem ipsum dolor officia eaque.",
     details3:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem nisi minus non asperiores ipsam, ipsum sequi dolorem corporis, tempore enim provident! Voluptas, at labore consequuntur animi vero ratione officia eaque.",
+      "   minus non asperiores ipsam, ipsum sequi dolorem corporis, tempore enim provident! Voluptas, at labore consequuntur animi vero adipisicing elit. Autem nisiLorem ipsum dolor sit, amet consecteturratione officia eaque.",
   },
   {
     jobTitle: "Engineer",
     jobTag: "Apple",
     jobMethod: "workApple",
-    date: "Jan 2024",
+    date: "Nov 2024",
     details1:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem nisi minus non asperiores ipsam, ipsum sequi dolorem corporis, tempore enim provident! Voluptas, at labore consequuntur animi vero ratione officia eaque.",
+      " elit. Autem nisi minus non asperiores ipsam, ipsum sequi dolorem corporis, tempore enim provident!Lorem ipsum dolor sit, amet consectetur adipisicing  Voluptas, at labore consequuntur animi vero ratione officia eaque.",
     details2:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem nisi minus non asperiores ipsam, ipsum sequi dolorem corporis, tempore enim provident! Voluptas, at labore consequuntur animi vero ratione officia eaque.",
+      " minus non asperiores ipsam, ipsum sequi dolorem corporis, tempore enim provident! sit, amet consectetur adipisicing elit. Autem nisi Voluptas, at labore consequuntur animi vero ratione Lorem ipsum dolor officia eaque.",
     details3:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem nisi minus non asperiores ipsam, ipsum sequi dolorem corporis, tempore enim provident! Voluptas, at labore consequuntur animi vero ratione officia eaque.",
+      "  ipsum sequi dolorem corporis, tempore enim provident! Voluptas, at labore consequuntur animi vero Lorem ipsum dolor sit, adipisicing elit. Autem nisi minus non asperiores ipsam, amet consecteturratione officia eaque.",
   },
   {
     jobTitle: "Engineer",
     jobTag: "Amazon",
     jobMethod: "workAmazon",
-    date: "Jan 2024",
+    date: "Dec 2024",
     details1:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem nisi minus non asperiores ipsam, ipsum sequi dolorem corporis, tempore enim provident! Voluptas, at labore consequuntur animi vero ratione officia eaque.",
+      "  Autem nisi minus non asperiores ipsam, ipsum sequi dolorem corporis, tempore enim provident!Lorem ipsum dolor sit, amet  Voluptas, consectetur adipisicing elit.at labore consequuntur animi vero ratione officia eaque.",
     details2:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem nisi minus non asperiores ipsam, ipsum sequi dolorem corporis, tempore enim provident! Voluptas, at labore consequuntur animi vero ratione officia eaque.",
+      "  Autem nisi minus non asperiores ipsam, ipsum sequi dolorem corporis, tempore enim provident! Voluptas,sit, amet consectetur adipisicing elit. at labore consequuntur animi vero ratione Lorem ipsum dolor officia eaque.",
     details3:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem nisi minus non asperiores ipsam, ipsum sequi dolorem corporis, tempore enim provident! Voluptas, at labore consequuntur animi vero ratione officia eaque.",
+      "   Autem nisi minus non asperioresadipisicing elit. ipsam, ipsum sequi dolorem corporis, tempore enim provident! Voluptas, at labore consequuntur animi vero Lorem ipsum dolor sit, amet consecteturratione officia eaque.",
   },
 ];
 
