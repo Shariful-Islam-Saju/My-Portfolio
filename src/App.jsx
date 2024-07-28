@@ -7,6 +7,7 @@ import Contacts from "./ui/Contacts";
 import Experience from "./ui/Experience";
 import Header from "./ui/Header";
 import Projects from "./ui/Projects";
+import ScrollBtn from './ui/ScrollBtn'
 
 function App() {
   return (
@@ -18,10 +19,7 @@ function App() {
       <Projects />
       <Arcive />
       <Contacts />
-      {/* 
-      {LeftSide bar}
-      {RightSide bar}
-      {ScrollBtn}*/}
+      <ScrollBtn/>
     </main>
   );
 }
