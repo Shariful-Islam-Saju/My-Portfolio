@@ -1,6 +1,8 @@
 import React from "react";
 import Banner from "./Banner";
 import { twMerge } from "tailwind-merge";
+import { motion } from "framer-motion";
+
 
 const Container = ({ children, className, id }) => {
   const newClassName = twMerge(
@@ -8,9 +10,15 @@ const Container = ({ children, className, id }) => {
     className
   );
   return (
-    <div id={id} className={newClassName}>
+    <motion.div
+      initial={{ y: 10, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.5, delay: 0.8 }}
+      id={id}
+      className={newClassName}
+    >
       {children}
-    </div>
+    </motion.div>
   );
 };
 

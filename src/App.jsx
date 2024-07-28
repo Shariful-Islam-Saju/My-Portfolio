@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 import About from "./ui/About";
 import Arcive from "./ui/Arcive";
 import Banner from "./ui/Banner";
@@ -16,13 +18,7 @@ function App() {
       <Projects />
       <Arcive />
       <Contacts />
-      {/* {Header}
-      {}
-      {About}
-      {Experience}
-      {Project}
-      {Archive}
-      {Contact} 
+      {/* 
       {LeftSide bar}
       {RightSide bar}
       {ScrollBtn}*/}

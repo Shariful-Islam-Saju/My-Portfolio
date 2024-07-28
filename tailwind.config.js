@@ -9,6 +9,7 @@ export default {
         lightText: "#CCD6F6",
         darkText: "#8892B0",
         hoverColor: "rgba(100, 255, 218, 0.1)",
+        textBg: "#112240",
       },
       // fontFamily: {
       //   bodyFont: ["Montserrat", "san-serif"],
