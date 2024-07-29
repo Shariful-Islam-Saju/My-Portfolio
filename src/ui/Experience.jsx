@@ -34,7 +34,6 @@ const Experience = () => {
     });
   }
 
-  const { workAmazon, workApple, workGoogle, workReactBD } = workInfo;
   return (
     <Container
       id="experience"
