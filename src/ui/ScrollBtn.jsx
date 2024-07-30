@@ -12,7 +12,7 @@ const ScrollBtn = () => {
   if (effect) {
     return (
       <div
-        className="fixed bottom-10 right-20 z-50 bg-darkText/40 text-lightText/80 p-3 rounded-full cursor-pointer hover:bg-black  transition duration-300"
+        className="fixed bottom-10 right-20 z-40 bg-darkText/40 text-lightText/80 p-3 rounded-full cursor-pointer hover:bg-black  transition duration-300"
         onClick={() => {
           scrollTo({ top: 0, behavior: "smooth" });
         }}

@@ -33,9 +33,9 @@ const links = [
   },
 ];
 
-const SocialLinks = () => {
+const SocialLinks = ({className}) => {
   return (
-    <div className="flex flex-col gap-y-5">
+    <div className={className}>
       {links.map((item, i) => {
         return (
           <motion.a
