@@ -1,6 +1,7 @@
 import Container from "./Container";
 import ProjectLinks from "./ProjectLinks";
 import TitlePage from "./TitlePage";
+import image from '../assets/images/download.jpg'
 
 function Projects() {
   return (
@@ -14,7 +15,7 @@ function Projects() {
             className="w-full lg:w-1/2 h-auto relative group rounded-lg overflow-hidden"
           >
             <img
-              src="src\assets\images\download.jpg"
+              src={image}
               alt="Works1"
               className="w-full h-full object-cover "
             />
@@ -52,7 +53,7 @@ function Projects() {
             className="w-full lg:w-1/2 h-auto relative group rounded-lg overflow-hidden"
           >
             <img
-              src="src\assets\images\download.jpg"
+              src={image}
               alt="Works1"
               className="w-full h-full object-cover "
             />
@@ -90,7 +91,7 @@ function Projects() {
             className="w-full lg:w-1/2 h-auto relative group rounded-lg overflow-hidden"
           >
             <img
-              src="src\assets\images\download.jpg"
+              src={image}
               alt="Works1"
               className="w-full h-full object-cover "
             />
