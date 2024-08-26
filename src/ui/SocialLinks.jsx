@@ -1,5 +1,6 @@
 import { delay, motion } from "framer-motion";
 import React from "react";
+import { LiaLinkedinIn } from "react-icons/lia";
 import {
   SlSocialFacebook,
   SlSocialInstagram,
@@ -19,6 +20,7 @@ const links = [
     icon: <SlSocialYoutube />,
     delay: 0.85,
   },
+
   {
     title: "instragram",
     link: "https://github.com/Shariful-Islam-Saju",
@@ -27,13 +29,19 @@ const links = [
   },
   {
     title: "facebook",
-    link: "https://github.com/Shariful-Islam-Saju",
+    link: "https://www.facebook.com/sajukhan.saju.92102/",
     icon: <SlSocialFacebook />,
     delay: 0.95,
   },
+  {
+    title: "linkedin",
+    link: "https://linkedin.com/in/shariful-islam-725ba8324",
+    icon: <LiaLinkedinIn />,
+    delay: 1,
+  },
 ];
 
-const SocialLinks = ({className}) => {
+const SocialLinks = ({ className }) => {
   return (
     <div className={className}>
       {links.map((item, i) => {

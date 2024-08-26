@@ -5,6 +5,8 @@ import { useRef, useState } from "react";
 import { MdOutlineClose } from "react-icons/md";
 import SocialLinks from "./SocialLinks";
 
+import cv from "../assets/cv.pdf";
+
 const navigation = [
   {
     title: "Home",
@@ -103,7 +105,7 @@ const Header = () => {
             ref={(node) => (ref.current = node)}
             onClick={(e) => {
               if (e.target.contains(ref.current)) {
-                setShow(false)
+                setShow(false);
               }
             }}
             className="absolute z-50 md:hidden top-0 right-0 w-full h-screen bg-black/50 flex flex-col items-end"
@@ -155,7 +157,8 @@ const Header = () => {
                     delay: 0.5,
                   }}
                   className="px-4 py-2 rounded-md font-medium text-designColor text-[13px] tracking-wide uppercase border border-designColor hover:bg-hoverColor duration-200"
-                  href="#"
+                  href="../assets/cv.pdf"
+                  target="_blank"
                 >
                   Resume
                 </motion.a>{" "}
